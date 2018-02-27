@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */ 
+.table-1-wrapper {
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 1px -2px 13px 6px rgba(0,0,0,0.07);
+    -moz-box-shadow: 1px -2px 13px 6px rgba(0,0,0,0.07);
+    box-shadow: 1px -2px 13px 6px rgba(0,0,0,0.07);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+
+.table-1-head {
+    width: 1170px;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+    background-color: #6c7ae0;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+/* Table */
+
+td {
+    padding: 18px 0 18px 0;
+}
+
+.col-1 {
+    padding-left: 30px;
+    width: 33%;
+}
+
+.col-2 {
+    width: 13%;
+}
+
+.col-3 {
+    width: 22%; 
+}
+
+.col-4 {
+    width: 19%;
+}
+
+.col-5 {
+    width: 13%;
+}
+
+.table-1 {
+    width: 100%;
+    font-family: Lato;
+    font-weight: 400;
+    color: rgba(119,136,153, 0.7);
+    border-collapse: collapse;
+}
+
+.row-hover {
+    background: rgba(108, 122, 224,.3);
+    color: rgba(119,136,153, 1);
+}
+
+.notes-button {
+    background: #ee8434;
+    color: white;
+    font-family: Lato;
+    font-weight: 700;
+    border: none;
+    margin-left: 15px;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+.col-check {
+    padding-left: 15px;
+}
+
+.col-1-right {
+    width: 30%;
+}
+
+.col-1-left {
+    width: 65%;
+}
+
+.col-1-ordering {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-div {
+    display: block;
+    position: relative;
+    background: rgba(238,132,52, 0.25);
+    transition: all .5s ease-in;
+}
+
+.checkbox-div input {
+    opacity: 0;
+    cursor: pointer;
+}
